@@ -1,6 +1,5 @@
 const clientId = '823d343e0730494eb14d14deef12ec55';
-const redirectUri = 'http://127.0.0.1:5500';
-const reditectUri = 'http://localhost:5500';
+const redirectUri = 'https://fedittt0.github.io/spotify-map/';
 const scopes = 'user-top-read';
 
 document.getElementById('login-btn').addEventListener('click', () => {
