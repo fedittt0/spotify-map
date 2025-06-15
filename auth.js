@@ -3,7 +3,7 @@ const redirectUri = 'https://fedittt0.github.io/spotify-map/';
 const scopes = 'user-top-read';
 
 document.getElementById('login-btn').addEventListener('click', () => {
-  window.location.href = `https://accounts.spotify.com/authorize?client_id=${clientId}&response_type=token&redirect_uri=${encodeURIComponent(redirectUri)}&scope=${scopes}&show_dialog=true`;
+  window.location.href = `https://accounts.spotify.com/authorize?client_id=${clientId}&response_type=token&redirect_uri=${encodeURIComponent(redirectUri)}&scope=${scopes}&show_dialog=true`;
 });
 
 // Obtener el token
